@@ -7,7 +7,7 @@
 import requests
 import pandas as pd
 
-
+# ToDo: Make own function for API KEY checking
 API_KEY = input("Please enter API Key: ") 
 API_BASE = "https://live.kvv.de/webapp"
 REQUEST_TYPES = ["stops_by_name", 
