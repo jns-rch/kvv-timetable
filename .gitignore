@@ -123,8 +123,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# API_KEY
-API_KEY.txt
-
 # FOR TESTS
 test.ipynb

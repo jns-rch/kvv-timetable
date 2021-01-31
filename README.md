@@ -2,6 +2,8 @@
 
 kvv-timetable is an unofficial implementation of live department data for Karlsruhe Tram/S-Bahn using request API from *https://live.kvv.de/* and [streamlit](https://www.streamlit.io/).
 
+Source for REST Key: *https://live.kvv.de/* 
+
 ## Installation 
 Unix/MacOS:
 ```
@@ -17,13 +19,12 @@ Start program:
 ```
 streamlit run streamlit_kvv.py
 ```
-Enter API Key in Command Line.
+Access through browser:
 
 ```
 You can now view your Streamlit app in your browser.
 Local URL: http://localhost:8501
 Network URL: http://192.168.0.108:8501
 
-Please enter API Key: ENTER_KEY_HERE
 ```
 

@@ -8,7 +8,8 @@ import requests
 import pandas as pd
 
 # ToDo: Make own function for API KEY checking
-API_KEY = input("Please enter API Key: ") 
+with open("API_KEY.txt") as key_file:
+    API_KEY = key_file.read()
 API_BASE = "https://live.kvv.de/webapp"
 REQUEST_TYPES = ["stops_by_name", 
         "stops_by_id",
